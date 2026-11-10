@@ -1,0 +1,30 @@
+LOJA DE NATAL — SITE PARA GITHUB PAGES
+
+ARQUIVOS
+- index.html: página completa (HTML, CSS e JavaScript).
+- assets/: fotos ilustrativas recortadas para os cards de árvores.
+
+ANTES DE PUBLICAR
+1. Abra index.html num editor de texto.
+2. No final do arquivo, localize:
+   const WHATSAPP_NUMBER = "COLOQUE_SEU_NUMERO_AQUI";
+3. Troque pelo seu WhatsApp em formato internacional, só números:
+   55 + DDD + número. Exemplo fictício: 5511999999999.
+4. Revise os modelos e as imagens; as fotos são ilustrativas.
+5. Não anuncie preços, estoque ou prazos que não foram confirmados.
+
+PUBLICAR NO GITHUB PAGES
+1. Crie um repositório público chamado loja-de-natal.
+2. Envie index.html e a pasta assets inteira, mantendo a estrutura.
+3. Abra Settings > Pages.
+4. Em Build and deployment, escolha Deploy from a branch.
+5. Escolha branch main e pasta /(root), depois Save.
+6. Aguarde a publicação e abra o endereço mostrado nessa tela.
+
+OBSERVAÇÕES
+- O GitHub Pages hospeda arquivos estáticos; este projeto não possui banco de dados.
+- O formulário abre o WhatsApp com os dados preenchidos. O cliente precisa tocar em Enviar.
+- Não há pagamento integrado. O Pix é combinado após a loja confirmar disponibilidade,
+  valor, frete e prazo. O site não confirma automaticamente compra ou entrega.
+- Os campos de endereço e contato são enviados diretamente para o WhatsApp configurado.
+  Publique somente um número comercial que você controla e proteja os dados recebidos.
